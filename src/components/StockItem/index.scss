@@ -1,0 +1,30 @@
+.stock-item{
+    display: grid;
+    grid-template-columns: 29% 19% 18% 18% 18%;
+    width: 916px;
+    height: 35px;
+    align-items: center;
+    padding-left: 1rem;
+    border: 1px solid rgb(45, 45, 45);
+    border-top: 0;
+    font-size: 12px;
+    .stock-item-name{
+        padding-left: 0.5rem;
+    }
+    .stock-symbol{
+        border: 2px solid rgba(158, 117, 255, 0.733);
+        background-color: rgba(227, 206, 255, 0.694);
+        padding: 3px;
+        padding-right: 5px;
+        border-radius: 22px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .save-btn{
+        width: 90px;
+        height: 28px;
+        border-radius: 8px;
+        border: 0 solid;
+        cursor: pointer;
+    }
+}

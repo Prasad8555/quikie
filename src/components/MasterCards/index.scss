@@ -1,0 +1,31 @@
+.master-cards{
+    list-style: none;
+    padding-inline-start: 0;
+    height: 180px;
+    display: flex;
+    .master-card{
+        border: 1px solid black;
+        padding: 1rem;
+        width: 255px;
+        margin: 1rem;
+        border-radius: 12px;
+        background-color: rgba(237, 237, 237, 0.852);
+        .master-card-top-container{
+            display: flex;
+            justify-content: space-between;
+            .master-card-heading{
+                font-size: 12px;
+            }
+            .master-card-img{
+                width: 35px;
+                background-size: cover;
+            }
+        }
+       .master-card-price{
+          font-size: 18px;
+          text-align: center;
+          padding-top: 0.4rem;
+          padding-bottom: 4rem;
+        }   
+    }
+}

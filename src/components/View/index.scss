@@ -1,0 +1,94 @@
+.view-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    .master-cards-container{
+      width: 980px;
+    }
+    .no-stocks{
+        width: 900px;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .no-stocks-h{
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+    .stocks-container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .stocks-header{
+            width: 900px;
+            border: 1px solid rgb(45, 45, 45);
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            padding: 5px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            display: flex;
+            align-items: center;
+            .stocks-header-heading{
+                font-size: 14px;
+            }
+        }
+        .stock-items-header{
+            display: grid;
+            grid-template-columns: 30% 18% 18% 18% 18%;
+            width: 900px;
+            height: 22px;
+            border: 1px solid rgb(45, 45, 45);
+            border-top: 0;
+            font-weight: 600;
+            padding-top: 8px;
+            font-size: 12px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .index-container{
+            width: 922px;
+            height: 20px;
+            padding: 5px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            border: 1px solid rgb(45, 45, 45);
+            border-top: 0;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            background-color: rgba(210, 198, 227, 0.582);
+            .index{
+                font-size: 11px;
+                margin-right: 20px;
+                font-weight: 600;
+            }
+            .pages-controllers{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .pagenation-icon{
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .back-btn{
+        width: 80px;
+        height: 30px;
+        border: 0px solid;
+        margin-top: 1rem;
+        color: #fff;
+        border-radius: 8px;
+        background-color: #6300ba;
+        cursor: pointer;
+    }
+}
